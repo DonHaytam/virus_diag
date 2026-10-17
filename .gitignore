@@ -1,0 +1,18 @@
+# Environnements Python
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Résultats d'entraînement / sauvegardes de modèles
+*.pkl
+*.joblib
+models/
