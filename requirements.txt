@@ -1,0 +1,5 @@
+# Dépendances de développement et d'intégration continue.
+# Le code applicatif (app, core, pipeline, utils) n'utilise que la
+# bibliothèque standard Python : aucune dépendance d'exécution n'est requise.
+pytest==9.1.1
+flake8==7.4.1

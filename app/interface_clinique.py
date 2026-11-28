@@ -18,7 +18,7 @@ if RACINE not in sys.path:
     sys.path.insert(0, RACINE)
 
 from core.clinical_predictor import ClinicalPredictor
-from pipeline.trainer import entrainer_depuis_csv, construire_modele
+from pipeline.trainer import entrainer_depuis_csv
 
 DESCRIPTIONS = {
     "age": ("Âge du patient (années)", "45"),

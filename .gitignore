@@ -1,18 +1,23 @@
-# Environnements Python
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.flake8.cache
+
+# Environnements virtuels
 .venv/
 venv/
 env/
 
-# IDE
-.idea/
+# Artefacts de build et de test
+build/
+dist/
+.coverage
+htmlcov/
+
+# Éditeurs / système
 .vscode/
-
-# Cache Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-
-# Résultats d'entraînement / sauvegardes de modèles
-*.pkl
-*.joblib
-models/
+.idea/
+.DS_Store
+Thumbs.db

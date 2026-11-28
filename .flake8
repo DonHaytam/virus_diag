@@ -1,0 +1,13 @@
+[flake8]
+max-line-length = 110
+# E402 : les modules ajoutent la racine du projet à sys.path avant leurs
+# imports locaux (bootstrap volontaire pour exécuter les fichiers directement).
+# E203/W503 : règles de style sources de faux positifs.
+extend-ignore = E203, E402, W503
+exclude =
+    .git,
+    __pycache__,
+    .venv,
+    venv,
+    build,
+    dist
